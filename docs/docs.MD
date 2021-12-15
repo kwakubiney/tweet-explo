@@ -1,6 +1,13 @@
-## Pre API implementation:
-- All 5 tweets are available in the database.
+##Django setup
 
+- Clone the project
+- cd to the directory where requirements.txt is located
+- activate your `virtualenv`
+- run: `pip install -r requirements.txt` in your shell
+
+
+## Pre API usage:
+- All 5 tweets are available in the database.
 
 ## Tweet model
 - Tweet
