@@ -1,6 +1,17 @@
 # tweet-explo
-## Pre API implementation:
-- All 5 tweets are available in the database.
+
+# Django setup
+
+- Clone the project
+- cd to the directory where requirements.txt is located
+- activate your `virtualenv`
+- run: `pip install -r requirements.txt` in your shell
+
+
+## Pre API usage:
+- A CSV file, located in the `csv` directory, contains a dataset of tweets
+- `cd` into the project directory
+- Run `py manage.py makemigrations` , `py manage.py migrate` and `py manage.py ProcessCsv` [ignore all warnings]
 
 
 ## Tweet model
@@ -18,6 +29,7 @@
 - `200` (found)
 - `500` (server error)
 - `404` (resource not found)
+
 
 
 

@@ -9,6 +9,9 @@
 ## Pre API usage:
 - All 5 tweets are available in the database.
 
+NB. Due to Twitter's policy on scraping, Selenium was not used but Tweet data was read from a CSV containing tweets
+about Marvel's Avengers! #EndGame
+
 ## Tweet model
 - Tweet
 - Date and time of creation
